@@ -136,6 +136,12 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
+  .site-font {
+    font-family: "Anton SC", sans-serif;
+		font-weight: 400;
+    font-style: normal;
+  }
+
 	h1, h2, h3, h4, h5, h6 {
     font-family: "Anton SC", sans-serif;
 		color: #5b5b5b;
@@ -2708,7 +2714,7 @@ input, select, textarea {
 		background-position: bottom center,					top left,				center center;
 		background-repeat: repeat-x,						repeat,					no-repeat;
 		background-size: 3200px 460px,					auto,					cover;
-		color: rgba(255, 255, 255, 0.8);
+		color: rgba(255, 255, 255, 0.9);
 		padding: 10em 0 20em 0;
 		position: relative;
 		text-align: center;
@@ -2751,6 +2757,11 @@ input, select, textarea {
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
 			color: #ffffff;
 		}
+
+    #header .header-image {
+      max-width: 90%;
+      max-height: 400px;
+    }
 
 		#header input[type="submit"],
 		#header input[type="reset"],
