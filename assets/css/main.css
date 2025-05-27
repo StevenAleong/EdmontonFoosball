@@ -2761,6 +2761,8 @@ input, select, textarea {
     #header .header-image {
       max-width: 90%;
       max-height: 400px;
+      z-index: 1;
+      position: relative;
     }
 
 		#header input[type="submit"],
